@@ -7,7 +7,7 @@ let package = Package(
     .library(name: "PathKit", targets: ["PathKit"]),
   ],
   dependencies: [
-    .package(url:"https://github.com/kylef/Spectre.git", .upToNextMinor(from:"0.9.0"))
+    .package(url:"git@github.com:warren-dev-ios/Spectre.git", .branch("master"))
   ],
   targets: [
     .target(name: "PathKit", dependencies: [], path: "Sources"),
